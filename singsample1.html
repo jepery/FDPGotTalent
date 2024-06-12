@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FDP Got Talent</title>
+
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <div class="container">
+        <h1>FDP Got Singers: Maybe by Neocolours</h1>
+        <video id="videoke" controls>
+            <source src="songs/maybe.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="lyrics-container">
+            <p class="lyrics" id="lyrics">Loading lyrics...</p>
+            <form id="quiz-form">
+                <input type="text" id="answer" placeholder="Type the missing word..." autocomplete="off">
+                <button type="submit">Submit</button>
+            </form>
+            <p id="feedback"></p>
+        </div>
+        <div id="tally"></div>
+        <audio id="correct-sound" src="songs/correct.mp3"></audio>
+        <audio id="incorrect-sound" src="songs/wrong.mp3"></audio>
+    </div>
+
+    <script src="singsample1.js"></script>
+</body>
+</html>
