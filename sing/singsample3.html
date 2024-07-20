@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FDP Got Talent</title>
-
     <link rel="stylesheet" href="styles1.css">
+
+    <script src="https://player.vimeo.com/api/player.js"></script>
+
 </head>
+
 <body>
     <div class="container">
-        <h1>FDP Got Singers: Maybe by Neocolours</h1>
-        <video id="videoke" controls>
-            <source src="songs/maybe.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
+        <h1>FDP Got Singers: Breathless by The Corrs</h1>
+        <div class="container1" id="videoke">
+            <iframe
+                src="https://player.vimeo.com/video/987751637?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                width="950" height="550" frameborder="0"
+                allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="Breathless Edited"></iframe>
+        </div>
         <div class="lyrics-container">
             <p class="lyrics" id="lyrics">Loading lyrics...</p>
             <form id="quiz-form">
@@ -27,6 +33,7 @@
         <audio id="incorrect-sound" src="songs/wrong.mp3"></audio>
     </div>
 
-    <script src="singsample1.js"></script>
+    <script src="singsample3.js"></script>
 </body>
+
 </html>

@@ -12,7 +12,16 @@ body {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 1000px;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.container1 {
+    max-width: 960px;
     width: 100%;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.7);
